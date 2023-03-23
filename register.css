@@ -1,0 +1,54 @@
+.input-part{
+    margin-top: 12%;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+   
+}
+.input-part input{
+    height: 30px;
+    width: 250px;
+    margin-left: 35%;
+   border-color:none;
+}
+.input-part input:hover{
+    height: 35px;
+    width:260px;
+    border-color: #D11243;
+    border-width: 3px;
+}
+.form-box{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: #d4ced0 0px 20px 30px -10px;
+    height: 60%;
+    
+}
+.bot-sign{
+   margin-left: 33%;
+   margin-top: 40px;
+   height: 40px;
+   width: 300px;
+   color: white;
+   background-color:  #D11243 ;
+   border: 0px;
+   border-radius: 10px;
+   margin-bottom: 15%;
+}
+.sign button{
+   border: 0px;
+   margin-left: 40%;
+   padding: auto;
+    font-size: 25px;
+  background-color: white;
+}
+.sign button:hover{
+    color: #e4dcde;
+   
+}
+body{
+    background: url(https://wallpaperset.com/w/full/b/3/8/512706.jpg);
+    background-size: cover;
+    background-position: center;
+}
